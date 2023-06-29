@@ -1,0 +1,70 @@
+.login {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?size=626&ext=jpg");
+  background-size: contain;
+  position: relative;
+}
+
+.loginTitle {
+  font-size: 50px;
+}
+
+.loginForm {
+  margin-top: 21px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.loginForm > label {
+  margin: 11px 0;
+}
+
+.loginInput {
+  padding: 11px;
+  background-color: white;
+  border: none;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginBtn {
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  height: 30px;
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+
+.registerBtn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  padding: 9px;
+  border: none;
+  width: 9rem;
+  border-radius: 9px;
+  font-size: 17px;
+}
+
+@media (max-width: 769px) {
+}

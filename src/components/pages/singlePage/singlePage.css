@@ -1,0 +1,9 @@
+.singlePage {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .singlePage {
+    flex-flow: column nowrap;
+  }
+}

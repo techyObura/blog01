@@ -1,0 +1,130 @@
+.sidebar {
+  flex: 1;
+  margin: 18px;
+  padding-bottom: 31px;
+  background-color: rgba(224, 210, 184, 0.5);
+  border-radius: 18px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.sideItem {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+}
+
+.sideTitle {
+  margin: 11px;
+  padding: 7px;
+  width: 60%;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  color: rgb(15, 15, 15);
+  line-height: 22px;
+}
+
+.sideItem > img {
+  margin-top: 16px;
+}
+
+.sideItem > p {
+  padding: 32px;
+}
+
+.sideList {
+  margin-bottom: 31px;
+  list-style: none;
+}
+
+.sideListItem {
+  display: inline-block;
+  width: 50%;
+  cursor: pointer;
+  margin-top: 0.9rem;
+}
+
+.sideSocialContainer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+.sideIcon {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 769px) {
+  .sidebar {
+    background-color: rgba(224, 210, 184, 0.5);
+    border-radius: 18px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .sideItem {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+  }
+
+  .sideTitle {
+    margin: 11px;
+    padding: 7px;
+    width: 60%;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgb(15, 15, 15);
+    line-height: 22px;
+  }
+
+  .sideItem > img {
+    margin-top: 16px;
+  }
+
+  .sideItem > p {
+    padding: 32px;
+  }
+
+  .sideList {
+    margin-bottom: 31px;
+    list-style: none;
+  }
+
+  .sideListItem {
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+    margin-top: 0.9rem;
+  }
+
+  .sideSocialContainer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+  }
+
+  .sideIcon {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}

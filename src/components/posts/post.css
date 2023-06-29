@@ -1,0 +1,45 @@
+.post {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  margin-top: 18px;
+}
+.line {
+  display: none;
+}
+
+.news {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .post {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(175, 80, 99);
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+
+  .news {
+    text-align: center;
+    color: teal;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .news > h3 {
+    margin-bottom: 12px;
+  }
+}
